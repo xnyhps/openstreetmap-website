@@ -55,8 +55,8 @@
           </div>
 
           <div id="remember_me_openid" class='form-row'>
-            <%= check_box_tag "remember_me_openid", "yes", false, :tabindex => 5 %>
-            <label class="standard-label" for="remember_me_openid"><%= t 'user.login.remember' %></label>
+            <%= check_box_tag "remember_me_openid_checkbox", "yes", false, :tabindex => 5 %>
+            <label class="standard-label" for="remember_me_openid_checkbox"><%= t 'user.login.remember' %></label>
           </div>
 
         <%= submit_tag t('user.login.login_button'), :tabindex => 6, :id => "login_openid_submit" %>
